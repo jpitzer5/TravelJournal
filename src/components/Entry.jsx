@@ -1,4 +1,5 @@
 export default function Entry(props) {
+    props = props.entry
     return (
         <article className="journal-entry">
             <div className="main-image-container">
